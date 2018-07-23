@@ -18,10 +18,11 @@ const Categories = props =>
                     </div>
                     <div>
                         <img src={camping} alt="camping" className="images" />
-                        <ul>
-                            <p class="description"> Item 1 </p>
-                            <a href="/camping" target="_blank" class="description">browse more items</a>
-                        </ul>
+
+                        <div>
+                            <a class="button is-small is-rounded" href="/camping" role="button">Browse</a>
+                        </div>
+
                     </div>
                 </div>
 
@@ -31,10 +32,9 @@ const Categories = props =>
                     </div>
                     <div>
                         <img src={sporting} alt="sporting" class="images" /><br />
-                        <ul>
-                            <p class="description"> Item 1 </p>
-                            <a href="/sporting" target="_blank" class="description">browse more items</a>
-                        </ul>
+                        <div>
+                             <a class="button is-small is-rounded" href="/sporting" role="button">Browse</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -46,10 +46,9 @@ const Categories = props =>
                     </div>
                     <div>
                         <img src={water} alt="water" class="images" /><br />
-                        <ul>
-                            <p class="description"> Item 1 </p>
-                            <a href="/water" target="_blank" class="description">browse more items</a>
-                        </ul>
+                        <div>
+                            <a class="button is-small is-rounded" href="/water" role="button">Browse</a>
+                        </div>
                     </div>
                 </div>
                 <div class="column">
@@ -58,10 +57,9 @@ const Categories = props =>
                     </div>
                     <div>
                         <img src={tools} alt="tools" class="images" /><br />
-                        <ul>
-                            <p class="description"> Item 1 </p>
-                            <a href="/tools" target="_blank" class="description">browse more items</a>
-                        </ul>
+                        <div>
+                             <a class="button is-small is-rounded" href="/tools" role="button">Browse</a>
+                        </div>
                     </div>
                 </div>
             </div>
