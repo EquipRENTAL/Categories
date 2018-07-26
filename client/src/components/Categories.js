@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import camping from './camping.jpeg';
 import sporting from './sporting.jpeg';
@@ -9,18 +10,17 @@ const Categories = props =>
 
 
     <div>
+        <Navbar />
         <div class="container">
-
             <div class="columns">
                 <div class="column">
                     <div>
-                        <h2> Camping </h2>
+                        <a href="/camping"><h2> Camping </h2> </a>
                     </div>
                     <div>
-                        <img src={camping} alt="camping" className="images" />
-
                         <div>
-                            <a class="button is-small is-rounded" href="/camping" role="button">Browse</a>
+                            <a href="/camping"><img src={camping} alt="camping" className="images" /> </a>
+
                         </div>
 
                     </div>
@@ -28,13 +28,12 @@ const Categories = props =>
 
                 <div class="column">
                     <div>
-                        <h2> Sporting Goods </h2>
+                        <a href="/sporting"><h2> Sporting Goods </h2> </a>
                     </div>
                     <div>
-                        <img src={sporting} alt="sporting" class="images" /><br />
-                        <div>
-                             <a class="button is-small is-rounded" href="/sporting" role="button">Browse</a>
-                        </div>
+
+                        <a href="/sporting"><img src={sporting} alt="sporting" className="images" /> </a>
+
                     </div>
                 </div>
             </div>
@@ -42,24 +41,19 @@ const Categories = props =>
             <div class="columns">
                 <div class="column">
                     <div>
-                        <h2> Nautical </h2>
+                        <a href="/water"><h2> Nautical </h2> </a>
                     </div>
                     <div>
-                        <img src={water} alt="water" class="images" /><br />
-                        <div>
-                            <a class="button is-small is-rounded" href="/water" role="button">Browse</a>
-                        </div>
+                        <a href="/water"><img src={water} alt="water" className="images" /> </a>
+
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <h2> Tools and Misc. </h2>
+                        <a href="/tools"><h2> Tools </h2> </a>
                     </div>
                     <div>
-                        <img src={tools} alt="tools" class="images" /><br />
-                        <div>
-                             <a class="button is-small is-rounded" href="/tools" role="button">Browse</a>
-                        </div>
+                        <a href="/tools"><img src={tools} alt="tools" className="images" /> </a>
                     </div>
                 </div>
             </div>

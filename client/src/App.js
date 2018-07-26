@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route} from "react-router-dom";
-import Navbar from "./components/Navbar";
 import Camping from "./components/Camping";
 import Categories from "./components/Categories";
 import Sporting from "./components/Sporting";
@@ -12,7 +11,6 @@ import './components/App.css';
 const App = () =>  
     <Router>
         <div>
-            <Navbar />
                 <Route exact path="/" component={Categories}/>
                 <Route exact path="/camping" component={Camping}/>
                 <Route exact path="/sporting" component={Sporting}/>
