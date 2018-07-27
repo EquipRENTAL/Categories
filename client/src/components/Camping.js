@@ -20,6 +20,17 @@ const Camping = props =>
                 <a href="./heater"><p> Portable Heaters</p></a>
             </ul> 
 
+            <h5> Browse by Users </h5>
+            <ul>
+                <p>Mockuser_1</p>
+                <p>Mockuser_2</p>
+                <p>Mockuser_3</p>
+                <p>Mockuser_4</p>
+                <p>Mockuser_5</p>
+            </ul>
+
+        
+
         </div>
     </div>
 
