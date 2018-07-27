@@ -12,18 +12,13 @@ const Camping = props =>
 
             <h5> Browse by Categories </h5>
             <ul> 
-                <p> Tents </p>
-                <p> Sleeping Accesories </p>
-                <p> Coolers </p>
-                <p> Backpacks </p>
-                <p> Canopies and Shelters </p>
-                <p> Camp Cooking Equipment </p>
-                <p> Camping Furniture </p>
-                <p> Portable Heaters </p>
-                <p> Camping Electronics </p>
-                <p> Miscellaneous </p>
-
-            </ul>
+                <a href="./Tent"><p>Tent</p></a>
+                <a href="./sleeping"><p>Sleeping Accessories</p></a>
+                <a href="./coolers"><p>Coolers</p></a>
+                <a href="./backpacks"><p>Backpacks</p></a>
+                <a href="./cooking"><p>Camp Cooking Equipment</p></a>
+                <a href="./heater"><p> Portable Heaters</p></a>
+            </ul> 
 
         </div>
     </div>
