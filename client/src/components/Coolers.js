@@ -4,13 +4,13 @@ import Navbar from "./Navbar"
 
 const Coolers = props =>
 
-<div>
+    <div>
 
-<Navbar />
+        <Navbar />
 
-<h1> Coolers </h1>
+        <h1> Coolers </h1>
 
-</div>
+    </div>
 
 
 export default Coolers;
