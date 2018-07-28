@@ -1,26 +1,40 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css"
 
 const Navbar = props =>
     <div>
         <nav class="navbar navbar-dark bg-success">
+            <div className="1">
+                <a href="#" className="navLinks"><p>About Us</p></a>
+            </div>
+            <div className="2">
+                <a href="#" className="navLinks"><p>Browse</p></a>
+            </div>
             <div class="info-section">
-                <h1>EquipRENT</h1>
+                <h1 className="logo">EquipRENT</h1>
                 {/*  Make it so that pressing EquipRENT should take you to the homepage. */}
             </div>
+            <div className="3">
+                <a href="#" className="navLinks"><p>Post</p></a>
+            </div>
+            <div className="4">
+                <a href="#" className="navLinks"><p>Login/Create User</p></a>
+            </div>
+            
         </nav>
 
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="">Find</span>
-                </div>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">Find</span>
+            </div>
 
-                <div>
-                    <input type="text" class="form-control"></input>
-                </div>
+            <div>
+                <input type="text" class="form-control"></input>
+            </div>
 
 
-                {/* THIS is the Google Maps Portion.
+            {/* THIS is the Google Maps Portion.
 
                     <div> 
                         <body onload="initialize()">
@@ -34,12 +48,12 @@ const Navbar = props =>
 
                     </div> */}
 
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button">Search!</button>
-                </div>
-
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Search!</button>
             </div>
+
         </div>
-    
+    </div>
+
 
 export default Navbar;
