@@ -8,6 +8,9 @@ const Tent = props =>
     <Navbar />
     
     <h2> Tent </h2>
+
+    <a href="./Confirmation"><p>Mock Item 1 </p></a>
+
 </div>
 
 
