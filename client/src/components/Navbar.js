@@ -9,29 +9,31 @@ const Navbar = props =>
                 <a href="#" className="navLinks"><p>About Us</p></a>
             </div>
             <div className="2">
-                <a href="#" className="navLinks"><p>Browse</p></a>
+                <a href="/" className="navLinks"><p>Browse</p></a>
             </div>
             <div class="info-section">
-                <h1 className="logo">EquipRENT</h1>
-                {/*  Make it so that pressing EquipRENT should take you to the homepage. */}
+                 <a href="/"><h1 className="logo">EquipRENT</h1></a>
             </div>
             <div className="3">
                 <a href="#" className="navLinks"><p>Post</p></a>
             </div>
             <div className="4">
-                <a href="#" className="navLinks"><p>Login/Create User</p></a>
+                <a href="" className="navLinks"><p>Login/Create User</p></a>
+            </div>
+            <div className="4">
+                <a href="/account" className="navLinks"><p>My account</p></a>
             </div>
             
         </nav>
 
-        <div class="input-group">
+        {/* <div class="input-group">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="">Find</span>
             </div>
 
             <div>
                 <input type="text" class="form-control"></input>
-            </div>
+            </div> */}
 
 
             {/* THIS is the Google Maps Portion.
@@ -47,12 +49,14 @@ const Navbar = props =>
                         </body>
 
                     </div> */}
-
+            
+            
+{/* This is the SEARCHBAR:
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary" type="button">Search!</button>
-            </div>
-
-        </div>
+            </div> */}
+{/* 
+        </div> */}
     </div>
 
 

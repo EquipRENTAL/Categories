@@ -1,15 +1,23 @@
 .images {
-    height: 200px;
-    width: 300px;
+    height: 600px;
+    width: 900px;
     
 }
 
-.description {
+/* .description {
     float: left;
+} */
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 1em;
 }
 
 h2 {
     color: black;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 1em;
+    
 }
 
 .info-section h1 {
@@ -21,6 +29,3 @@ h2 {
    display: inline;
 }
 
-.navbar-nav {
-    color: green;
-}

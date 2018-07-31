@@ -12,6 +12,7 @@ import Backpacks from "./components/Backpacks";
 import Cooking from "./components/Cooking";
 import Heater from "./components/Heater";
 import Confirmation from "./components/Confirmation"
+import Account from "./components/Account"
 import './components/App.css';
 
 
@@ -44,6 +45,7 @@ class App extends Component {
                     <Route exact path="/cooking" component={Cooking} />
                     <Route exact path="/heater" component={Heater} />
                     <Route exact path="/Confirmation" component={Confirmation} />
+                    <Route exact path="/account" component={Account} />
 
                 </div>
             </Router>

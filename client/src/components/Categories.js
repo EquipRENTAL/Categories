@@ -11,9 +11,13 @@ const Categories = props =>
 
     <div>
         <Navbar />
+      
+    
         <div class="container">
-            <div class="columns">
-                <div class="column">
+        <h1> Shop by Categories: </h1>
+
+        
+           
                     <div>
                         <a href="/camping"><h2> Camping </h2> </a>
                     </div>
@@ -24,9 +28,9 @@ const Categories = props =>
                         </div>
 
                     </div>
-                </div>
+             
 
-                <div class="column">
+            
                     <div>
                         <a href="/sporting"><h2> Sporting Goods </h2> </a>
                     </div>
@@ -35,11 +39,9 @@ const Categories = props =>
                         <a href="/sporting"><img src={sporting} alt="sporting" className="images" /> </a>
 
                     </div>
-                </div>
-            </div>
+               
 
-            <div class="columns">
-                <div class="column">
+           
                     <div>
                         <a href="/water"><h2> Nautical </h2> </a>
                     </div>
@@ -47,16 +49,14 @@ const Categories = props =>
                         <a href="/water"><img src={water} alt="water" className="images" /> </a>
 
                     </div>
-                </div>
-                <div class="column">
+         
                     <div>
                         <a href="/tools"><h2> Tools </h2> </a>
                     </div>
                     <div>
                         <a href="/tools"><img src={tools} alt="tools" className="images" /> </a>
                     </div>
-                </div>
-            </div>
+             
         </div>
     </div>
 
