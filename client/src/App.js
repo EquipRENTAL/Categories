@@ -13,6 +13,8 @@ import Cooking from "./components/Cooking";
 import Heater from "./components/Heater";
 import Confirmation from "./components/Confirmation"
 import Account from "./components/Account"
+import Post from "./components/Post"
+import About from "./components/About"
 import './components/App.css';
 
 
@@ -46,6 +48,8 @@ class App extends Component {
                     <Route exact path="/heater" component={Heater} />
                     <Route exact path="/Confirmation" component={Confirmation} />
                     <Route exact path="/account" component={Account} />
+                    <Route exact path="/post" component={Post} />
+                    <Route exact path="/about" component={About} />
 
                 </div>
             </Router>

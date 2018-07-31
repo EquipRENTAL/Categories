@@ -6,7 +6,7 @@ const Navbar = props =>
     <div>
         <nav class="navbar navbar-dark bg-success">
             <div className="1">
-                <a href="#" className="navLinks"><p>About Us</p></a>
+                <a href="/about" className="navLinks"><p>About Us</p></a>
             </div>
             <div className="2">
                 <a href="/" className="navLinks"><p>Browse</p></a>
@@ -15,7 +15,7 @@ const Navbar = props =>
                  <a href="/"><h1 className="logo">EquipRENT</h1></a>
             </div>
             <div className="3">
-                <a href="#" className="navLinks"><p>Post</p></a>
+                <a href="/post" className="navLinks"><p>Post</p></a>
             </div>
             <div className="4">
                 <a href="" className="navLinks"><p>Login/Create User</p></a>

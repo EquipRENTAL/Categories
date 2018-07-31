@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar"
 
-const Account = props =>
+const About = props =>
 
 <div>
 
     <Navbar />
 
-    <h1> My Account </h1>
+    <h1> About Us </h1>
 
 </div>
 
-export default Account;
+export default About;
