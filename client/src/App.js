@@ -35,7 +35,15 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <Route exact path="/" component={Categories} />
+
+                    <Route exact path="/:categoryName" component={Categories} />
+
+                    
+                    {/* When I work on Category I should use this.props.match.params.categoryName
+                     */}
+                    
+                    
+                    {/* <Route exact path="/" component={Categories} />
                     <Route exact path="/camping" component={Camping} />
                     <Route exact path="/sporting" component={Sporting} />
                     <Route exact path="/water" component={Water} />
@@ -49,7 +57,7 @@ class App extends Component {
                     <Route exact path="/Confirmation" component={Confirmation} />
                     <Route exact path="/account" component={Account} />
                     <Route exact path="/post" component={Post} />
-                    <Route exact path="/about" component={About} />
+                    <Route exact path="/about" component={About} />  */}
 
                 </div>
             </Router>
