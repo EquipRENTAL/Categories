@@ -9,7 +9,7 @@ const Water = props =>
 
         <Navbar />
 
-        <div class="container">
+        <div className="container">
 
             <h1> Nautical </h1>
 

@@ -8,7 +8,7 @@ const Tools = props =>
 
         <Navbar />
 
-        <div class="container">
+        <div className="container">
 
             <h1> Tools </h1>
         </div>

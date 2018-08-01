@@ -7,10 +7,12 @@ const itemSchema = new Schema({
   category: {type: String, required: true },
   item: {type: String, required: true},
   description: String,
+  image: String,
   date: { type: Date, default: Date.now }
 });
 
 const Items = mongoose.model("Items", itemSchema);
 
 module.exports = Items;
+
 

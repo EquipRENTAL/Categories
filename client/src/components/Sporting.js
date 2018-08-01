@@ -7,7 +7,7 @@ const Sporting = props =>
     <div>
         <Navbar />
 
-        <div class="container">
+        <div className="container">
 
             <h1> Sporting </h1>
         </div>
