@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Camping from "./components/Camping";
+// import Camping from "./components/Camping";
 import Categories from "./components/Categories";
-import Sporting from "./components/Sporting";
-import Tools from "./components/Tools";
-import Water from "./components/Water";
-import Tent from "./components/Tent";
-import SleepingAccessories from "./components/SleepingAccessories";
-import Coolers from "./components/Coolers";
-import Backpacks from "./components/Backpacks";
-import Cooking from "./components/Cooking";
-import Heater from "./components/Heater";
-import Confirmation from "./components/Confirmation"
-import Account from "./components/Account"
-import Post from "./components/Post"
-import About from "./components/About"
-import './components/App.css';
+// import Sporting from "./components/Sporting";
+// import Tools from "./components/Tools";
+// import Water from "./components/Water";
+// import Tent from "./components/Tent";
+// import SleepingAccessories from "./components/SleepingAccessories";
+// import Coolers from "./components/Coolers";
+// import Backpacks from "./components/Backpacks";
+// import Cooking from "./components/Cooking";
+// import Heater from "./components/Heater";
+// import Confirmation from "./components/Confirmation"
+// import Account from "./components/Account"
+// import Post from "./components/Post"
+// import About from "./components/About"
+// import './components/App.css';
 
 
 class App extends Component {
