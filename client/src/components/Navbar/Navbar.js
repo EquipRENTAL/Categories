@@ -18,7 +18,7 @@ const Navbar = props =>
                 <a href="/post" className="navLinks"><p>Post</p></a>
             </div>
             <div className="4">
-                <a href="" className="navLinks"><p>Login/Create User</p></a>
+                <a href="/login" className="navLinks"><p>Login/Create User</p></a>
             </div>
             <div className="4">
                 <a href="/account" className="navLinks"><p>My account</p></a>

@@ -8,6 +8,7 @@ import Tent from "./pages/Tent"
 // import Confirmation from "./pages/Confirmation"
 import Account from "./pages/Account"
 import Post from "./pages/Post"
+import Login from "./pages/Login"
 import './App.css';
 
 
@@ -20,22 +21,7 @@ class App extends Component {
     handleSelect(date) {
         console.log(date);
     }
-
-    handlePageChange = page => {
-        this.setState({ currentPage: page });
-      };
     
-    renderPage = () => {
-        if (this.state.currentPage === "Home") {
-          return <Home />;
-        } else if (this.state.currentPage === "About") {
-          return <About />;
-        } else if (this.state.currentPage === "Categories") {
-          return <Categories />;
-        } else {
-          return <Tent />;
-        }
-      };
 
     componentDidMount() {
     }
@@ -67,6 +53,7 @@ class App extends Component {
                     <Route exact path="/account" component={Account} />
                     <Route exact path="/post" component={Post} />
                     <Route exact path="/about" component={About} /> 
+                    <Route exact path="/login" component={Login} /> 
 
                 </div>
             </Router>
