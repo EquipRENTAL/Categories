@@ -9,7 +9,7 @@ const Navbar = props =>
                 <a href="/about" className="navLinks"><p>About Us</p></a>
             </div>
             <div className="2">
-                <a href="/" className="navLinks"><p>Browse</p></a>
+                <a href="/categories" className="navLinks"><p>Browse</p></a>
             </div>
             <div class="info-section">
                  <a href="/"><h1 className="logo">EquipRENT</h1></a>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar/Navbar"
 import { Link } from "react-router-dom";
 // import camping from './camping.jpeg';
 // import sporting from './sporting.jpeg';
@@ -35,7 +35,7 @@ render() {
     return (
         <div>
             <Navbar />
-            <h1>CategoryName: {this.props.params.categoryName}</h1>
+            {/* <h1>CategoryName: {this.props.params.categoryName}</h1> */}
          
 {/*         
             <div class="container">

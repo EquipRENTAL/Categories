@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar"
+import Navbar from "../components/Navbar/Navbar"
 import "./Interact.css"
 import Jumbotron from "./Jumbotron"
 import { DateRange } from 'react-date-range'
-import Interact from "./Interact"
+import Interact from "../components/Interact/Interact"
 
 
 const Confirmation = props =>
