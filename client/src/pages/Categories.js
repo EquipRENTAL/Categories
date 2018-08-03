@@ -35,7 +35,7 @@ class Categories extends Component {
         return (
             <div>
                 <Navbar />
-                {/* <h1>CategoryName: {this.props.params.categoryName}</h1> */}
+              
 
 
                 <div class="container">
@@ -46,14 +46,13 @@ class Categories extends Component {
 
 
 
-                    
-                 <div>
-                        <a href="/camping"><h2> Camping </h2> </a>
+
+                    <div>
+                        <Link to="/categories/camping"><h2> Camping </h2> </Link>
                     </div>
                     <div>
                         <div>
-                            <a href="/camping"><img src={camping} alt="camping" className="images" /> </a>
-
+                            <Link to="/categories/camping"><img src={camping} alt="camping" className="images" /></Link>
                         </div>
 
                     </div>
@@ -61,29 +60,30 @@ class Categories extends Component {
 
 
                     <div>
-                        <a href="/sporting"><h2> Sporting Goods </h2> </a>
+                        <Link to="/categories/sporting"><h2>Sporting Goods</h2></Link>
                     </div>
                     <div>
-
-                        <a href="/sporting"><img src={sporting} alt="sporting" className="images" /> </a>
-
+                        <Link to="/categories/sporting"><img src={sporting} alt="sporting" className="images" /></Link>
                     </div>
 
 
 
                     <div>
-                        <a href="/water"><h2> Nautical </h2> </a>
+                        <Link to="/categories/water"><h2>Nautical</h2></Link>
+
                     </div>
                     <div>
-                        <a href="/water"><img src={water} alt="water" className="images" /> </a>
+                        <Link to="/categories/water"><img src={water} alt="water" className="images" /></Link>
+
 
                     </div>
 
                     <div>
-                        <a href="/tools"><h2> Tools </h2> </a>
+                        <Link to="/categories/tools"><h2>Tools</h2></Link>
+
                     </div>
                     <div>
-                        <a href="/tools"><img src={tools} alt="tools" className="images" /> </a>
+                        <Link to="/categories/tools"><img src={tools} alt="tools" className="images" /></Link>
                     </div>
 
                 </div>

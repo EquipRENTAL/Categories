@@ -9,8 +9,8 @@ mongoose.connect(
   );
 
 const items = [
-    {user: "Jessica Son", role: "Renter", category: "Camping", item: "Tent", description: "My tent is available!"},
-    {user: "Michael", role: "renter", category: "Camping", item: "tent", description: "This is my favorite tent"}
+    {renter: "Jessica Son", category: "Camping", item: "Tent", description: "My tent is available!", img: "", available: bool, rentee: "", reviews: "", rating: number}, ,
+    {renter: "Michael", category: "Camping", item: "tent", description: "This is my favorite tent", img: ""}
 ]
 
 db.itemSchema

@@ -41,8 +41,6 @@ class App extends Component {
             <Router>
                 <div>
 
-                    {/* <Route exact path="/:categoryName" component={Categories} /> */}
-
                     
                     
                     
@@ -57,6 +55,8 @@ class App extends Component {
                     <Route exact path="/home" component={Home} /> 
 
 
+
+                    <Route exact path="/categories/:categoryName" component={Page} />
 
                 </div>
             </Router>
