@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar"
+import Navbar from "../components/Navbar/Navbar"
 
 const Account = props =>
 
@@ -8,7 +8,7 @@ const Account = props =>
 
     <Navbar />
 
-    <h1> My Account </h1>
+    <h1> My account </h1>
 
 </div>
 
